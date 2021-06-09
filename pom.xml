@@ -1,3 +1,5 @@
+
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -20,7 +22,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.143.216.174:9000/</sonar.host.url>
+		<sonar.host.url>3.129.18.46:9000/</sonar.host.url>
 		<sonar.login>0a0366a0b5ee83e2e46c0102d776de3ecbfbca6a</sonar.login>
 		<!-- <sonar.password>admin</sonar.password>  -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>  
-	      <url>http://3.236.125.137:8081/repository/boa-releases/</url>
+	      <url>http://18.218.251.77:8081/repository/MVA-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.236.125.137:8081/repository/boa-snapshot/</url>
+	      <url>http://18.218.251.77:8081/repository/MVA-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
